@@ -1,5 +1,5 @@
 {
-  "Merchants": {
+  "Merchant": {
     "proxy_merchant_token": { "string": [
         "e53af598-be0d-4cdc-bcfc-4b8e26bef6d3",
         "e53af598-be0d-4cdc-bcfc-4b8e26bef6d4",
@@ -8,12 +8,12 @@
     },
     "industry": { "string": [
         "Alimentos",
-        "Mecáncia",
+        "Mecanica",
         "Servicios"
       ] 
     },
     "transactions": {
-      "hasMany": "Transactions"
+      "hasMany": "Transaction"
     }
   },
   "Transaction": {
