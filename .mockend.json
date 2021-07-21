@@ -18,7 +18,7 @@
   },
   "Transaction": {
     "amount": { "int": { "min": 100, "max": 550 } } },
-    "merchants": {
+    "merchant": {
       "belongsTo": "Merchant"
     }
   },
