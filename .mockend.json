@@ -1,14 +1,15 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+  "Merchants": {
+    "proxy_merchant_token": { "string": {["e53af598-be0d-4cdc-bcfc-4b8e26bef6d3","e53af598-be0d-4cdc-bcfc-4b8e26bef6d4","e53af598-be0d-4cdc-bcfc-4b8e26bef6d5"]}},
+    "industry": { "string": {["Alimentos","Servicios","Mecánica automotriz"]}},
+    "transactions": {
+      "hasMany": "Transactions"
     }
   },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
+  "Transaction": {
+    "amount": { "int": { "min": 100, "max": 550 } } },
+    "merchants": {
+      "belongsTo": "Merchant"
     }
-  }
+  },
 }
