@@ -11,7 +11,9 @@
     "industry": { "string": [
         "Alimentos",
         "Mecanica",
-        "Servicios"
+        "Servicios",
+        "Papeleria",
+        "Restaurante"
       ] 
     },
     "transactions": {
