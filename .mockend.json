@@ -10,10 +10,10 @@
     },
     "industry": { "string": [
         "Alimentos",
-        "Mecanica",
+        "Restaurante",
         "Servicios",
         "Papeleria",
-        "Restaurante"
+        "Mecanica"
       ] 
     },
     "transactions": {
