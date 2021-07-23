@@ -30,7 +30,7 @@
       ] 
     },
     "amount": { "int": { "min": 100, "max": 550 } },
-    "createdAt": { "dateTime": { "max": "2020-12-01T10:10:10Z", "max": "2020-12-31T10:10:10Z" } },
+    "createdAt": { "dateTime": { "min": "2020-12-01T10:10:10Z", "max": "2020-12-31T10:10:10Z" } },
     "merchant": {
       "belongsTo": "Merchant"
     }
