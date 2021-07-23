@@ -30,6 +30,7 @@
       ] 
     },
     "amount": { "int": { "min": 100, "max": 550 } },
+    "createdAt": { "min": "2019-06-01T00:00:00Z", "max": "2021-06-31T23:59:59Z" },
     "merchant": {
       "belongsTo": "Merchant"
     }
